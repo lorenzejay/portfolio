@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.df7774a2.chunk.css",
+    "main.js": "/portfolio/static/js/main.afcf0e7f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.afcf0e7f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.9a9f7afd.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9a9f7afd.js.map",
+    "static/js/2.fcf7e8fb.chunk.js": "/portfolio/static/js/2.fcf7e8fb.chunk.js",
+    "static/js/2.fcf7e8fb.chunk.js.map": "/portfolio/static/js/2.fcf7e8fb.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.6aceb668b5ba341aac749049e10abb56.js": "/portfolio/precache-manifest.6aceb668b5ba341aac749049e10abb56.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.df7774a2.chunk.css.map": "/portfolio/static/css/main.df7774a2.chunk.css.map",
+    "static/js/2.fcf7e8fb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fcf7e8fb.chunk.js.LICENSE.txt",
+    "static/media/DSC02193.jpg": "/portfolio/static/media/DSC02193.f38b6dc8.jpg",
+    "static/media/Entry-Dark-App.png": "/portfolio/static/media/Entry-Dark-App.6c5f1f37.png",
+    "static/media/bmi-calculator-app.png": "/portfolio/static/media/bmi-calculator-app.969d268e.png",
+    "static/media/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.png": "/portfolio/static/media/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.9e840087.png",
+    "static/media/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png": "/portfolio/static/media/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.e96109f0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a9f7afd.js",
+    "static/js/2.fcf7e8fb.chunk.js",
+    "static/css/main.df7774a2.chunk.css",
+    "static/js/main.afcf0e7f.chunk.js"
+  ]
+}
