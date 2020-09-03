@@ -14,6 +14,7 @@ function Works() {
       text2: "You can see results from 186 countries. Values update on a daily basis.",
       technologies: ["HTML", "CSS", "JavaScript"],
       projectLink: "https://github.com/lorenzejay/Covid-19-Live-Data",
+      demoLink: "https://lorenzejay.github.io/Covid-19-Live-Data/",
     },
     {
       img: EntryApp,
@@ -23,6 +24,7 @@ function Works() {
         "Features include CRUD styled application that stores users notes. Users can also change background color. Setting feature also allows for a dark theme look as well. Implementation of local storage is included. ",
       technologies: ["React", "CSS"],
       projectLink: "https://github.com/lorenzejay/Entry",
+      demoLink: "https://lorenzejay.github.io/Entry/",
     },
     {
       img: todoApp,
@@ -32,6 +34,7 @@ function Works() {
         "Additional Features include settings where users can change from light to dark theme.",
       technologies: ["HTML", "CSS", "JavaScript"],
       projectLink: "https://github.com/lorenzejay/todo-list",
+      demoLink: "https://lorenzejay.github.io/todo-list/",
     },
     {
       img: BMIProject,
@@ -41,6 +44,7 @@ function Works() {
         "Use this to check your body mass index, following the guidelines used by reputable sites like NHLBI.NIH or the CDC.",
       technologies: ["HTML", "CSS", "JavaScript"],
       projectLink: "https://github.com/lorenzejay/bmi-calculator",
+      demoLink: "https://lorenzejay.github.io/bmi-calculator/",
     },
   ]);
 
@@ -50,7 +54,7 @@ function Works() {
         <a target="_blank" href={item.projectLink}>
           <img className="works-img" src={item.img} />
         </a>
-        <div>
+        <div className="works-text-container">
           <h2 className="works-title">{item.title}</h2>
           <p className="works-description">{item.text1}</p>
           <p className="works-description">{item.text2}</p>
@@ -65,7 +69,11 @@ function Works() {
     );
   });
 
-  return <div className="works-flex-column">{workContainer}</div>;
+  return (
+    <div id="works" className="works-flex-column">
+      {workContainer}
+    </div>
+  );
 }
 
 export default Works;

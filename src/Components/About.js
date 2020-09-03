@@ -1,10 +1,16 @@
 import React from "react";
 import ProfileImage from "./Images/DSC02193.jpg";
+import javaScriptImg from "./Images/js.png";
+import reactImg from "./Images/react.png";
+import sassImg from "./Images/sass.png";
+import nodeImg from "./Images/nodejs.png";
+import profileImg2 from "./Images/lorenze-portfile.jpg";
+
 function About() {
   return (
     <section>
       <h3 className="section-title" id="about">
-        About .
+        About.
       </h3>
       <div className="about-flex-content">
         <div className="about-text-container">
@@ -16,19 +22,23 @@ function About() {
           <p>I am self-taught, driven, and willing to learn from others.</p>
           <p>Technologies I use to build my projects are :</p>
           <div className="technology-list">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <ul>
-              <li>React</li>
-              <li>Node.JS</li>
-              <li>SASS</li>
+            <ul className="about-technologies">
+              <li>
+                <img src={javaScriptImg} style={{ width: 60 }} />
+              </li>
+              <li>
+                <img src={reactImg} style={{ width: 60 }} />
+              </li>
+              <li>
+                <img src={sassImg} style={{ width: 60 }} />
+              </li>
+              <li>
+                <img src={nodeImg} style={{ width: 60 }} />
+              </li>
             </ul>
           </div>
         </div>
-        <img className="profile-pic" src={ProfileImage} />
+        <img className="profile-pic" src={profileImg2} />
       </div>
     </section>
   );

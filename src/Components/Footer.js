@@ -1,17 +1,15 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { Facebook } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <h3>Made by: Lorenze Jay</h3>
       <p>Lorenzejay@gmail.com</p>
-      <div>
-        <FontAwesomeIcon icon={"facebook-messenger"} style={{ color: "black" }} />
+
+      <div className="contact-links">
+        <a href="https://github.com/lorenzejay">Github</a>
+        <a href="https://www.linkedin.com/in/lorenze-hernandez-93aab3175/">LinkedIn</a>
       </div>
-      <a href="https://github.com/lorenzejay">Github</a>
     </footer>
   );
 }

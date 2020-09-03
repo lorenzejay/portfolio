@@ -3,9 +3,9 @@ import Works from "./Works";
 
 function DisplayWorks() {
   return (
-    <div className="works">
+    <div id="works" className="works">
       <h3 className="section-title" id="about">
-        Works .
+        Works.
       </h3>
       <Works />
     </div>
