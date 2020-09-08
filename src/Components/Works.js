@@ -3,8 +3,15 @@ import Covid19Project from "./Images/screencapture-file-C-Users-HP-Desktop-Perso
 import BMIProject from "./Images/bmi-calculator-app.png";
 import todoApp from "./Images/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png";
 import EntryApp from "./Images/Entry-Dark-App.png";
+import weatherApp from "./Images/weather-application.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Works() {
+  React.useEffect(() => {
+    AOS.init();
+  });
+
   const [workContent, setWorkContent] = useState([
     {
       img: Covid19Project,
@@ -15,6 +22,17 @@ function Works() {
       technologies: ["HTML", "CSS", "JavaScript"],
       projectLink: "https://github.com/lorenzejay/Covid-19-Live-Data",
       demoLink: "https://lorenzejay.github.io/Covid-19-Live-Data/",
+    },
+    {
+      img: weatherApp,
+      title: "Current Weather App",
+      text1:
+        "Project using the OpenWeather API. I used Node.js to fetch and create a custom API. That custom API is then fetched using axios to make serve in the frontend using React.",
+      text2:
+        "APP covers the current temperature as well as the current min and max temperatures. It is finally deployed over to Heroku.",
+      technologies: ["React", "Node.js", "Axios"],
+      projectLink: "https://github.com/lorenzejay/Weather-App",
+      demoLink: "https://weather-app-ljaph.herokuapp.com//",
     },
     {
       img: EntryApp,
@@ -50,7 +68,7 @@ function Works() {
 
   const workContainer = workContent.map((item) => {
     return (
-      <div className="works-flex-row" key={item.title}>
+      <div className="works-flex-row" key={item.title} data-aos="fade-up" data-aos-duration="2000">
         <a target="_blank" href={item.projectLink}>
           <img className="works-img" src={item.img} />
         </a>
@@ -60,9 +78,14 @@ function Works() {
           <p className="works-description">{item.text2}</p>
           <div className="works-technologies">
             <p>Built with: {item.technologies.join(" ")}</p>
-            <a className="works-links" href={item.projectLink}>
-              Github
-            </a>
+            <div>
+              <a className="works-links" href={item.projectLink}>
+                Github
+              </a>
+              <a className="works-links" href={item.demoLink}>
+                Demo
+              </a>
+            </div>
           </div>
         </div>
       </div>

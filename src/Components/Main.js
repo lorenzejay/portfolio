@@ -15,7 +15,7 @@ function Main() {
         </div>
         <div>
           <p className="main-description">
-            I am a web developor based in Los Angeles, CA specialized in front-web development. I
+            I am a Web Developer based in Los Angeles, CA specialized in front-web development. I
             can build exceptional websites, applications and everything in between.
           </p>
         </div>

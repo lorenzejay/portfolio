@@ -5,14 +5,16 @@ import reactImg from "./Images/react.png";
 import sassImg from "./Images/sass.png";
 import nodeImg from "./Images/nodejs.png";
 import profileImg2 from "./Images/lorenze-portfile.jpg";
+import AOS from "aos";
 
+AOS.init();
 function About() {
   return (
     <section>
       <h3 className="section-title" id="about">
         About.
       </h3>
-      <div className="about-flex-content">
+      <div className="about-flex-content" data-aos="fade-up" data-aos-duration="2000">
         <div className="about-text-container">
           <p>You can call me Lorenze Jay.</p>
           <p>
@@ -20,7 +22,7 @@ function About() {
             anything technology related. My goal is to build products that fit everyone's needs.
           </p>
           <p>I am self-taught, driven, and willing to learn from others.</p>
-          <p>Technologies I use to build my projects are :</p>
+          <p>Technologies I've use to build my projects include:</p>
           <div className="technology-list">
             <ul className="about-technologies">
               <li>

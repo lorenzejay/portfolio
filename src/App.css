@@ -20,6 +20,7 @@ nav {
   font-size: 1.85rem;
   letter-spacing: 5px;
   text-transform: uppercase;
+  cursor: default;
 }
 
 .nav-links {
@@ -33,6 +34,10 @@ nav {
   color: white;
   font-size: 1.35rem;
   color: #c71f5c;
+}
+
+nav a:hover {
+  color: white;
 }
 
 .burger {
@@ -152,7 +157,7 @@ section p {
   display: flex;
   flex-direction: row;
   gap: 5vw;
-  margin-bottom: 8vh;
+  margin-bottom: 15vh;
 }
 
 .works-img {
@@ -181,6 +186,10 @@ section p {
   color: white;
 }
 
+.works-links {
+  margin-left: 15px;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -204,6 +213,10 @@ footer .contact-links {
   width: 13vw;
   display: flex;
   justify-content: space-around;
+}
+
+footer a:hover {
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
