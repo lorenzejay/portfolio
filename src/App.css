@@ -247,6 +247,9 @@ footer a:hover {
   .main-saying {
     font-size: 2rem;
   }
+  .section-title {
+    padding: 10% 5%;
+  }
   .about-flex-content {
     display: flex;
     flex-direction: column;
@@ -256,9 +259,11 @@ footer a:hover {
     width: 100%;
   }
   .profile-pic {
-    width: 50vw;
-    height: 60vh;
+    width: 65vw;
+    height: 50vh;
     margin-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 5px;
   }
 
   .works-flex-row {
@@ -273,6 +278,6 @@ footer a:hover {
     padding: 10vh 0;
   }
   footer .contact-links {
-    width: 30vw;
+    width: 40vw;
   }
 }
