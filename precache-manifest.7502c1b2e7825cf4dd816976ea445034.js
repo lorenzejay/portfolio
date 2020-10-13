@@ -1,63 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f9034d271c81350ef5b698105a94edd",
+    "revision": "4bc43a6df609f3562103f0b6b5d74daa",
     "url": "./index.html"
   },
   {
-    "revision": "562724a55ccd4c49a546",
+    "revision": "572d3a4fc777b4f3548c",
     "url": "./static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "aa5a33011ca49480fee9",
-    "url": "./static/css/main.9c90a043.chunk.css"
+    "revision": "272c89ee4f90b551d302",
+    "url": "./static/css/main.459d1fa5.chunk.css"
   },
   {
-    "revision": "562724a55ccd4c49a546",
-    "url": "./static/js/2.94391d63.chunk.js"
+    "revision": "572d3a4fc777b4f3548c",
+    "url": "./static/js/2.8f3c0011.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "./static/js/2.94391d63.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.8f3c0011.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa5a33011ca49480fee9",
-    "url": "./static/js/main.17972f62.chunk.js"
+    "revision": "272c89ee4f90b551d302",
+    "url": "./static/js/main.b6dd66f7.chunk.js"
   },
   {
     "revision": "0d1710b164dd6487fe58",
     "url": "./static/js/runtime-main.71d0f492.js"
   },
   {
-    "revision": "f38b6dc8a51a5626473f9d31bad7becf",
-    "url": "./static/media/DSC02193.f38b6dc8.jpg"
-  },
-  {
     "revision": "6c5f1f379625c50cbdde09b0c4ebe018",
     "url": "./static/media/Entry-Dark-App.6c5f1f37.png"
+  },
+  {
+    "revision": "a138461515630cd83e7fd75d266b1992",
+    "url": "./static/media/Web-Development-Resume.a1384615.pdf"
   },
   {
     "revision": "969d268eb164f3a86c1436df8869bcce",
     "url": "./static/media/bmi-calculator-app.969d268e.png"
   },
   {
-    "revision": "e56e37dea453afc79e0a029d0c615488",
-    "url": "./static/media/js.e56e37de.png"
-  },
-  {
     "revision": "a02731bffbaa4f0d6109ed40548a107a",
     "url": "./static/media/lorenze-portfile.a02731bf.jpg"
-  },
-  {
-    "revision": "55e83371dbf50a5f027b1fe31a054ad3",
-    "url": "./static/media/nodejs.55e83371.png"
-  },
-  {
-    "revision": "f297dfcd8b3e9215ee862f232d5c9d13",
-    "url": "./static/media/react.f297dfcd.png"
-  },
-  {
-    "revision": "a2bc8ecf6d9052818b36402f0431c60f",
-    "url": "./static/media/sass.a2bc8ecf.png"
   },
   {
     "revision": "9e840087345df3eca985ef5d17bfa37f",
