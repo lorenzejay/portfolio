@@ -1,18 +1,20 @@
-import React, { useState } from "react";
-import Covid19Project from "./Images/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.png";
-import BMIProject from "./Images/bmi-calculator-app.png";
-import todoApp from "./Images/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png";
-import EntryApp from "./Images/Entry-Dark-App.png";
-import weatherApp from "./Images/weather-application.png";
+import React, { useContext, useState } from "react";
+import Covid19Project from "../Images/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.png";
+import BMIProject from "../Images/bmi-calculator-app.png";
+import todoApp from "../Images/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png";
+import EntryApp from "../Images/Entry-Dark-App.png";
+import weatherApp from "../Images/weather-application.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import DarkThemeContext from "../../Context/Theme";
 
 function Works() {
   React.useEffect(() => {
     AOS.init();
   });
-
-  const [workContent, setWorkContent] = useState([
+  const darkTheme = useContext(DarkThemeContext);
+  const { darkThemeActive } = darkTheme;
+  const [workContent] = useState([
     {
       img: Covid19Project,
       title: "Covid-19 Live Data",
@@ -72,17 +74,20 @@ function Works() {
         <a target="_blank" href={item.projectLink}>
           <img className="works-img" src={item.img} />
         </a>
-        <div className="works-text-container">
+        <div
+          className="works-text-container"
+          style={{ color: darkThemeActive ? "white" : "black" }}
+        >
           <h2 className="works-title">{item.title}</h2>
           <p className="works-description">{item.text1}</p>
           <p className="works-description">{item.text2}</p>
           <div className="works-technologies">
             <p>Built with: {item.technologies.join(" ")}</p>
             <div>
-              <a className="works-links" href={item.projectLink}>
+              <a className="works-links github-link" href={item.projectLink}>
                 Github
               </a>
-              <a className="works-links" href={item.demoLink}>
+              <a className="works-links demo-link" href={item.demoLink}>
                 Demo
               </a>
             </div>

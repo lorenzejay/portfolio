@@ -1,0 +1,35 @@
+main {
+  min-height: 90vh;
+  border-bottom: 2px solid white;
+  .main-intro {
+    font-size: 1.6rem;
+  }
+  .main-name,
+  .main-saying,
+  .main-description {
+    margin-top: 5vh;
+  }
+
+  .main-name {
+    font-size: 4rem;
+    color: white;
+  }
+
+  .main-saying {
+    color: black;
+    font-size: 2.5rem;
+    background-color: #4acfac;
+    padding: 8px;
+  }
+
+  .main-description {
+    color: #8892b0;
+    font-size: 1.35rem;
+    margin: 5vh 0;
+  }
+}
+
+.main-content-container {
+  padding: 10vh 7%;
+  width: 75%;
+}

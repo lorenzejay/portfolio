@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  background: #0f1824;
+  .animated-logo {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    float: left;
+    justify-content: start;
+    .Cursor {
+      display: none;
+    }
+  }
+}
+
+.logo {
+  color: white;
+  font-size: 1.85rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: default;
+  margin-right: 25vw;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1.35rem;
+}
+
+nav a:hover {
+  background-color: #4acfac;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  margin: 5px;
+}

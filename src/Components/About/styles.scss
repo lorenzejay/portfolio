@@ -1,0 +1,57 @@
+section {
+  color: white;
+  min-height: 100vh;
+  border-bottom: 2px solid white;
+}
+
+.section-title {
+  padding: 3% 7%;
+  h3 {
+    font-size: 2rem;
+    background-color: #c71f5c;
+    width: 15%;
+    padding: 7px;
+  }
+}
+
+section p {
+  font-size: 1.4rem;
+  margin-top: 3vh;
+  line-height: 1.2;
+}
+
+.about-flex-content {
+  display: flex;
+  flex-direction: row;
+  padding: 0% 7%;
+}
+
+.about-text-container {
+  width: 50vw;
+}
+
+.technology-list {
+  margin-top: 5vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 40%;
+}
+.about-technologies {
+  display: flex;
+  justify-content: space-around;
+}
+.about-technologies img {
+  margin-right: 20px;
+}
+
+.about-technologies li {
+  margin-right: 15px;
+}
+.profile-pic {
+  width: 25vw;
+  height: 60vh;
+  display: grid;
+  margin: 0 auto;
+  border-radius: 10px;
+}

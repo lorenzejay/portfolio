@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  background-color: #0f1824;
+  color: white;
+  padding: 5% 0;
+  height: 30vh;
+  .linkedIn-link:hover {
+    background-color: #c71f5c;
+    color: white;
+  }
+}
+
+footer p {
+  margin: 3vh 0;
+}
+
+footer a {
+  color: #c71f5c;
+}
+
+footer .contact-links {
+  width: 13vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a:hover {
+  color: white;
+}
