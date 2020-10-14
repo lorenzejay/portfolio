@@ -226,60 +226,60 @@
     overflow-x: hidden;
     position: relative;
   }
-  .nav-links {
-    position: absolute;
-    height: 92vh;
-    top: 10vh;
-    display: flex;
-    flex-direction: column;
-    background: #0f1824;
-    width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-  .burger {
-    display: block;
-  }
-  .nav-active {
-    transform: translateX(0%);
-  }
-  .main-name {
-    font-size: 3rem;
-  }
-  .main-saying {
-    font-size: 2rem;
-  }
-  .section-title {
-    padding: 10% 5%;
-  }
-  .about-flex-content {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-  }
-  .about-text-container {
-    width: 100%;
-  }
-  .profile-pic {
-    width: 65vw;
-    height: 50vh;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
-    border-radius: 5px;
-  }
+  // .nav-links {
+  //   position: absolute;
+  //   height: 92vh;
+  //   top: 10vh;
+  //   display: flex;
+  //   flex-direction: column;
+  //   background: #0f1824;
+  //   width: 100%;
+  //   transform: translateX(100%);
+  //   transition: transform 0.5s ease-in;
+  // }
+  // .burger {
+  //   display: block;
+  // }
+  // .nav-active {
+  //   transform: translateX(0%);
+  // }
+  // .main-name {
+  //   font-size: 3rem;
+  // }
+  // .main-saying {
+  //   font-size: 2rem;
+  // }
+  // .section-title {
+  //   padding: 10% 5%;
+  // }
+  // .about-flex-content {
+  //   display: flex;
+  //   flex-direction: column;
+  //   padding: 5%;
+  // }
+  // .about-text-container {
+  //   width: 100%;
+  // }
+  // .profile-pic {
+  //   width: 65vw;
+  //   height: 50vh;
+  //   margin-top: 5vh;
+  //   padding-bottom: 5vh;
+  //   border-radius: 5px;
+  // }
 
-  .works-flex-row {
-    flex-direction: column;
-  }
-  .works-flex-row img {
-    width: 100%;
-    border-radius: 5px;
-  }
+  // .works-flex-row {
+  //   flex-direction: column;
+  // }
+  // .works-flex-row img {
+  //   width: 100%;
+  //   border-radius: 5px;
+  // }
 
-  footer {
-    padding: 10vh 0;
-  }
-  footer .contact-links {
-    width: 40vw;
-  }
+  // footer {
+  //   padding: 10vh 0;
+  // }
+  // footer .contact-links {
+  //   width: 40vw;
+  // }
 }

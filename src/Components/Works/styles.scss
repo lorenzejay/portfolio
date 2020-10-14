@@ -69,3 +69,24 @@
 .works-links {
   margin-left: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+  .section-title {
+    h3 {
+      width: 40vw;
+    }
+  }
+  .works-flex-row {
+    flex-direction: column;
+  }
+  .works-flex-row img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .works-text-container {
+    .works-title {
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+}

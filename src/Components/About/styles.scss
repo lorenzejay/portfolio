@@ -55,3 +55,27 @@ section p {
   margin: 0 auto;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .section-title {
+    padding: 10% 5%;
+    h3 {
+      width: 30vw;
+    }
+  }
+  .about-flex-content {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+  .about-text-container {
+    width: 100%;
+  }
+  .profile-pic {
+    width: 65vw;
+    height: 50vh;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 5px;
+  }
+}

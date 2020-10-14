@@ -30,3 +30,12 @@ footer .contact-links {
 footer a:hover {
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  footer {
+    padding: 10vh 0;
+  }
+  footer .contact-links {
+    width: 40vw;
+  }
+}
