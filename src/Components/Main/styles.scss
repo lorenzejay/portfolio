@@ -35,6 +35,9 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
+  .main {
+    height: 100vh;
+  }
   .main-content-container {
     width: 100%;
     .main-saying {

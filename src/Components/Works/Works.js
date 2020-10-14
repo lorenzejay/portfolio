@@ -81,13 +81,21 @@ function Works() {
           <h2 className="works-title">{item.title}</h2>
           <p className="works-description">{item.text1}</p>
           <p className="works-description">{item.text2}</p>
-          <div className="works-technologies">
+          <div className="works-technologies" style={{ color: darkThemeActive ? "white" : "grey" }}>
             <p>Built with: {item.technologies.join(" ")}</p>
-            <div>
-              <a className="works-links github-link" href={item.projectLink}>
+            <div style={{ color: darkThemeActive ? "white" : "black" }}>
+              <a
+                className="works-links github-link"
+                href={item.projectLink}
+                style={{ color: darkThemeActive ? "white" : "black" }}
+              >
                 Github
               </a>
-              <a className="works-links demo-link" href={item.demoLink}>
+              <a
+                className="works-links demo-link"
+                href={item.demoLink}
+                style={{ color: darkThemeActive ? "white" : "black" }}
+              >
                 Demo
               </a>
             </div>

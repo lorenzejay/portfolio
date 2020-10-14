@@ -13,7 +13,7 @@ function About() {
   return (
     <section style={{ backgroundColor: darkThemeActive ? "#171F24" : "white" }}>
       <div className="section-title">
-        <h3 id="about" style={{ color: darkThemeActive ? "white" : "black" }}>
+        <h3 id="about" style={{ color: darkThemeActive ? "white" : "white" }}>
           About.
         </h3>
       </div>
