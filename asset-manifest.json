@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "./static/css/main.0250d864.chunk.css",
-    "main.js": "./static/js/main.46a65db0.chunk.js",
-    "main.js.map": "./static/js/main.46a65db0.chunk.js.map",
+    "main.js": "./static/js/main.fb720791.chunk.js",
+    "main.js.map": "./static/js/main.fb720791.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.71d0f492.js",
     "runtime-main.js.map": "./static/js/runtime-main.71d0f492.js.map",
     "static/css/2.4707e12a.chunk.css": "./static/css/2.4707e12a.chunk.css",
-    "static/js/2.8f3c0011.chunk.js": "./static/js/2.8f3c0011.chunk.js",
-    "static/js/2.8f3c0011.chunk.js.map": "./static/js/2.8f3c0011.chunk.js.map",
+    "static/js/2.4c513c0a.chunk.js": "./static/js/2.4c513c0a.chunk.js",
+    "static/js/2.4c513c0a.chunk.js.map": "./static/js/2.4c513c0a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d83e3455d14f500e73d4d5b26450ad6a.js": "./precache-manifest.d83e3455d14f500e73d4d5b26450ad6a.js",
+    "precache-manifest.3bac762f511fafa7bc7f64e76ed76df0.js": "./precache-manifest.3bac762f511fafa7bc7f64e76ed76df0.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "./static/css/2.4707e12a.chunk.css.map",
     "static/css/main.0250d864.chunk.css.map": "./static/css/main.0250d864.chunk.css.map",
-    "static/js/2.8f3c0011.chunk.js.LICENSE.txt": "./static/js/2.8f3c0011.chunk.js.LICENSE.txt",
+    "static/js/2.4c513c0a.chunk.js.LICENSE.txt": "./static/js/2.4c513c0a.chunk.js.LICENSE.txt",
     "static/media/Entry-Dark-App.png": "./static/media/Entry-Dark-App.6c5f1f37.png",
     "static/media/Web-Development-Resume.pdf": "./static/media/Web-Development-Resume.a1384615.pdf",
     "static/media/bmi-calculator-app.png": "./static/media/bmi-calculator-app.969d268e.png",
     "static/media/lorenze-portfile.jpg": "./static/media/lorenze-portfile.a02731bf.jpg",
+    "static/media/minimanote-screenshot.png": "./static/media/minimanote-screenshot.2da4ee5e.png",
     "static/media/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.png": "./static/media/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.9e840087.png",
     "static/media/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png": "./static/media/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.e96109f0.png",
     "static/media/weather-application.png": "./static/media/weather-application.a6a8b492.png"
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.71d0f492.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.8f3c0011.chunk.js",
+    "static/js/2.4c513c0a.chunk.js",
     "static/css/main.0250d864.chunk.css",
-    "static/js/main.46a65db0.chunk.js"
+    "static/js/main.fb720791.chunk.js"
   ]
 }
