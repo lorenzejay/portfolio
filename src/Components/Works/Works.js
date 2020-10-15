@@ -4,6 +4,7 @@ import BMIProject from "../Images/bmi-calculator-app.png";
 import todoApp from "../Images/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png";
 import EntryApp from "../Images/Entry-Dark-App.png";
 import weatherApp from "../Images/weather-application.png";
+import minimanoteApp from "../Images/minimanote-screenshot.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DarkThemeContext from "../../Context/Theme";
@@ -15,16 +16,27 @@ function Works() {
   const darkTheme = useContext(DarkThemeContext);
   const { darkThemeActive } = darkTheme;
   const [workContent] = useState([
+    // {
+    //   img: Covid19Project,
+    //   title: "Covid-19 Live Data",
+    //   text1:
+    //     "Project using Covid-19 Data API to list out total cases, total deaths, and total recovered.",
+    //   text2: "You can see results from 186 countries. Values update on a daily basis.",
+    //   technologies: ["HTML", "CSS", "JavaScript"],
+    //   projectLink: "https://github.com/lorenzejay/Covid-19-Live-Data",
+    //   demoLink: "https://lorenzejay.github.io/Covid-19-Live-Data/",
+    // },
     {
-      img: Covid19Project,
-      title: "Covid-19 Live Data",
+      img: minimanoteApp,
+      title: "Minimanote",
       text1:
-        "Project using Covid-19 Data API to list out total cases, total deaths, and total recovered.",
-      text2: "You can see results from 186 countries. Values update on a daily basis.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      projectLink: "https://github.com/lorenzejay/Covid-19-Live-Data",
-      demoLink: "https://lorenzejay.github.io/Covid-19-Live-Data/",
+        "A Minimalistic Note Application with various built in features like code-editor, dark-theme, header, todo-checklists and lists.",
+      text2: "Integrates Firebase User authentication and database to store notes and images.",
+      technologies: ["React", "SCSS", "Firebase, Redux, Redux-sagas, React-Router"],
+      projectLink: "https://github.com/lorenzejay/ljaph-minimanote",
+      demoLink: "https://ljaph-minimanote.web.app/",
     },
+
     {
       img: weatherApp,
       title: "Current Weather App",
@@ -46,26 +58,26 @@ function Works() {
       projectLink: "https://github.com/lorenzejay/Entry",
       demoLink: "https://lorenzejay.github.io/Entry/",
     },
-    {
-      img: todoApp,
-      title: "Minimalistic To Do Application ",
-      text1: "Crud based Application utlizing only vanilla Javascript.",
-      text2:
-        "Additional Features include settings where users can change from light to dark theme.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      projectLink: "https://github.com/lorenzejay/todo-list",
-      demoLink: "https://lorenzejay.github.io/todo-list/",
-    },
-    {
-      img: BMIProject,
-      title: "Body Mass Index App",
-      text1: "Implmentation of input values parallel to skills learned in forms.",
-      text2:
-        "Use this to check your body mass index, following the guidelines used by reputable sites like NHLBI.NIH or the CDC.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      projectLink: "https://github.com/lorenzejay/bmi-calculator",
-      demoLink: "https://lorenzejay.github.io/bmi-calculator/",
-    },
+    // {
+    //   img: todoApp,
+    //   title: "Minimalistic To Do Application ",
+    //   text1: "Crud based Application utlizing only vanilla Javascript.",
+    //   text2:
+    //     "Additional Features include settings where users can change from light to dark theme.",
+    //   technologies: ["HTML", "CSS", "JavaScript"],
+    //   projectLink: "https://github.com/lorenzejay/todo-list",
+    //   demoLink: "https://lorenzejay.github.io/todo-list/",
+    // },
+    // {
+    //   img: BMIProject,
+    //   title: "Body Mass Index App",
+    //   text1: "Implmentation of input values parallel to skills learned in forms.",
+    //   text2:
+    //     "Use this to check your body mass index, following the guidelines used by reputable sites like NHLBI.NIH or the CDC.",
+    //   technologies: ["HTML", "CSS", "JavaScript"],
+    //   projectLink: "https://github.com/lorenzejay/bmi-calculator",
+    //   demoLink: "https://lorenzejay.github.io/bmi-calculator/",
+    // },
   ]);
 
   const workContainer = workContent.map((item) => {
