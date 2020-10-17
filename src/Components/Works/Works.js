@@ -1,8 +1,5 @@
 import React, { useContext, useState } from "react";
-import Covid19Project from "../Images/screencapture-file-C-Users-HP-Desktop-Personal-Projects-covid-19-API-index-html-2020-07-28-21_42_43.png";
-import BMIProject from "../Images/bmi-calculator-app.png";
-import todoApp from "../Images/screencapture-lorenzejay-github-io-todo-list-2020-07-28-21_26_22.png";
-import EntryApp from "../Images/Entry-Dark-App.png";
+import Covid19Project from "../Images/ljaph-Covid-19-Tracker-screenshot.png"
 import weatherApp from "../Images/weather-application.png";
 import minimanoteApp from "../Images/minimanote-screenshot.png";
 import AOS from "aos";
@@ -16,27 +13,27 @@ function Works() {
   const darkTheme = useContext(DarkThemeContext);
   const { darkThemeActive } = darkTheme;
   const [workContent] = useState([
-    // {
-    //   img: Covid19Project,
-    //   title: "Covid-19 Live Data",
-    //   text1:
-    //     "Project using Covid-19 Data API to list out total cases, total deaths, and total recovered.",
-    //   text2: "You can see results from 186 countries. Values update on a daily basis.",
-    //   technologies: ["HTML", "CSS", "JavaScript"],
-    //   projectLink: "https://github.com/lorenzejay/Covid-19-Live-Data",
-    //   demoLink: "https://lorenzejay.github.io/Covid-19-Live-Data/",
-    // },
+   
     {
       img: minimanoteApp,
       title: "Minimanote",
       text1:
-        "A Minimalistic Note Application with various built in features like code-editor, dark-theme, header, todo-checklists and lists.",
+        "A Minimalistic Note Taking Application with various built in features like code-editor, dark-theme, header image, todo-checklists and lists.",
       text2: "Integrates Firebase User authentication and database to store notes and images.",
       technologies: ["React", "SCSS", "Firebase, Redux, Redux-sagas, React-Router"],
       projectLink: "https://github.com/lorenzejay/ljaph-minimanote",
       demoLink: "https://ljaph-minimanote.web.app/",
     },
-
+ {
+      img: Covid19Project,
+      title: "Covid-19-Tracker",
+      text1:
+        "Project using Covid-19 Data API to list out total cases, total deaths, and total recovered from Covid-19.",
+      text2: "You can see results from 186 countries. Includes Data Visualization with Recharts which illustrates data over a 6 month span with colorful graphs.",
+      technologies: ["React", "Context-API", "SCSS", "COVID-19 API", "ReCharts"],
+      projectLink: "https://github.com/lorenzejay/ljaph-Covid-19-Tracker",
+      demoLink: "https://lorenzejay.github.io/ljaph-Covid-19-Tracker/",
+    },
     {
       img: weatherApp,
       title: "Current Weather App",
@@ -48,16 +45,16 @@ function Works() {
       projectLink: "https://github.com/lorenzejay/Weather-App",
       demoLink: "https://weather-app-ljaph.herokuapp.com//",
     },
-    {
-      img: EntryApp,
-      title: "Entry",
-      text1: "This is a sticky notes based app.",
-      text2:
-        "Features include CRUD styled application that stores users notes. Users can also change background color. Setting feature also allows for a dark theme look as well. Implementation of local storage is included. ",
-      technologies: ["React", "CSS"],
-      projectLink: "https://github.com/lorenzejay/Entry",
-      demoLink: "https://lorenzejay.github.io/Entry/",
-    },
+    // {
+    //   img: EntryApp,
+    //   title: "Entry",
+    //   text1: "This is a sticky notes based app.",
+    //   text2:
+    //     "Features include CRUD styled application that stores users notes. Users can also change background color. Setting feature also allows for a dark theme look as well. Implementation of local storage is included. ",
+    //   technologies: ["React", "CSS"],
+    //   projectLink: "https://github.com/lorenzejay/Entry",
+    //   demoLink: "https://lorenzejay.github.io/Entry/",
+    // },
     // {
     //   img: todoApp,
     //   title: "Minimalistic To Do Application ",

@@ -12,7 +12,7 @@ function Main() {
     <main
       style={{
         backgroundColor: darkThemeActive ? "#171F24" : "white",
-        borderBottom: !darkThemeActive && "1px solid #333333",
+        borderBottom: !darkThemeActive && "3px solid #333333",
       }}
     >
       <div className="main-content-container">
@@ -28,7 +28,7 @@ function Main() {
         </div>
         <div>
           <h3 className="main-saying" style={{ color: darkThemeActive ? "white" : "black" }}>
-            Mixing Technology and Creativity🖥️🎨
+            Mixing Technology and Creativity
           </h3>
         </div>
         <div>
