@@ -1,7 +1,8 @@
 import React, { useContext, useState } from "react";
-import Covid19Project from "../Images/ljaph-Covid-19-Tracker-screenshot.png"
+import Covid19Project from "../Images/ljaph-Covid-19-Tracker-screenshot.png";
 import weatherApp from "../Images/weather-application.png";
 import minimanoteApp from "../Images/minimanote-screenshot.png";
+import diMenuMenu from "../Images/dimenu-menu.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DarkThemeContext from "../../Context/Theme";
@@ -13,7 +14,16 @@ function Works() {
   const darkTheme = useContext(DarkThemeContext);
   const { darkThemeActive } = darkTheme;
   const [workContent] = useState([
-   
+    {
+      img: diMenuMenu,
+      title: "Di Menu",
+      text1: "Di Menu digitalizes restaurants paper menus into QR codes customers can scan.",
+      text2:
+        "Restaurant owners can quickly create a menu based on a simple, clean and minimalistic design. Then they can print their generated QR code.",
+      technologies: ["MongoDB", "SCSS", "React, Redux, Nodejs, Express"],
+      projectLink: "https://github.com/lorenzejay/dMenu",
+      demoLink: "https://dimenu.herokuapp.com/",
+    },
     {
       img: minimanoteApp,
       title: "Minimanote",
@@ -24,12 +34,13 @@ function Works() {
       projectLink: "https://github.com/lorenzejay/ljaph-minimanote",
       demoLink: "https://ljaph-minimanote.web.app/",
     },
- {
+    {
       img: Covid19Project,
       title: "Covid-19-Tracker",
       text1:
         "Project using Covid-19 Data API to list out total cases, total deaths, and total recovered from Covid-19.",
-      text2: "You can see results from 186 countries. Includes Data Visualization with Recharts which illustrates data over a 6 month span with colorful graphs.",
+      text2:
+        "You can see results from 186 countries. Includes Data Visualization with Recharts which illustrates data over a 6 month span with colorful graphs.",
       technologies: ["React", "Context-API", "SCSS", "COVID-19 API", "ReCharts"],
       projectLink: "https://github.com/lorenzejay/ljaph-Covid-19-Tracker",
       demoLink: "https://lorenzejay.github.io/ljaph-Covid-19-Tracker/",
@@ -92,7 +103,10 @@ function Works() {
           <p className="works-description">{item.text2}</p>
           <div className="works-technologies" style={{ color: darkThemeActive ? "white" : "grey" }}>
             <p>Built with: {item.technologies.join(" ")}</p>
-            <div style={{ color: darkThemeActive ? "white" : "black" }}>
+            <div
+              style={{ color: darkThemeActive ? "white" : "black" }}
+              className="github-demo-links"
+            >
               <a
                 className="works-links github-link"
                 href={item.projectLink}

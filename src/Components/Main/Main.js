@@ -33,8 +33,8 @@ function Main() {
         </div>
         <div>
           <p className="main-description" style={{ color: darkThemeActive ? "#8892b0" : "black" }}>
-            I am a Web Developer based in Los Angeles, California specialized in front-web
-            development. I can build exceptional websites, applications and everything in between.
+            I am a Web Developer from Los Angeles, California specialized in Frontend-Web
+            Development. I can build exceptional websites, applications and everything in between.
           </p>
         </div>
         <Modal modalTitle="📄Resume">

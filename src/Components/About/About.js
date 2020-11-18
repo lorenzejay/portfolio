@@ -11,7 +11,12 @@ function About() {
   const { darkThemeActive } = darkTheme;
 
   return (
-    <section style={{ backgroundColor: darkThemeActive ? "#171F24" : "white",  borderBottom: !darkThemeActive && "3px solid #333333"}}>
+    <section
+      style={{
+        backgroundColor: darkThemeActive ? "#171F24" : "white",
+        borderBottom: !darkThemeActive && "3px solid #333333",
+      }}
+    >
       <div className="section-title">
         <h3 id="about" style={{ color: darkThemeActive ? "white" : "white" }}>
           About.
@@ -24,10 +29,9 @@ function About() {
         >
           <p>You can call me Lorenze Jay.</p>
           <p>
-            My passion revolves around combining creativity and technology. Bring the two worlds
-            together and we have Web Development. In this field, I can bring my creativity to the
-            internet, by designing and implementing applications and webstes for the entire world to
-            see.
+            My passion revolves around combining creativity and technology. Web Development has
+            allowed me to bring my creativity to the internet. I do this by designing and
+            implementing applications and webstes for the entire world to see.
           </p>
           <p>
             My journey in Web Development has made me adaptable to complex problems, a more logical

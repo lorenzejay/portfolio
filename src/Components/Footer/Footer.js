@@ -15,7 +15,11 @@ function Footer() {
       }}
     >
       <h2>Contact</h2>
-      <p>Lorenzejay@gmail.com</p>
+      <p>
+        <a style={{ color: "white" }} href="mailto:lorenzejay@gmail.com">
+          Email me here: lorenzejay@gmail.com
+        </a>
+      </p>
 
       <div className="contact-links">
         <a href="https://github.com/lorenzejay" className="github-link">

@@ -1,11 +1,12 @@
 section {
+  padding: 5% 0;
   color: white;
   min-height: 100vh;
   border-bottom: 2px solid white;
 }
 
 .section-title {
-  padding: 3% 7%;
+  padding: 0% 7%;
   h3 {
     font-size: 2rem;
     background-color: #c71f5c;
@@ -49,11 +50,13 @@ section p {
   margin-right: 15px;
 }
 .profile-pic {
-  width: 25vw;
-  height: 60vh;
+  width: 400px;
+  height: 400px;
   display: grid;
+  object-fit: cover;
+  object-position: top;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -72,10 +75,8 @@ section p {
     width: 100%;
   }
   .profile-pic {
-    width: 65vw;
-    height: 50vh;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
-    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 5vh auto;
   }
 }

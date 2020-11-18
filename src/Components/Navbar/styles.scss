@@ -30,6 +30,11 @@ nav {
   align-items: center;
   justify-content: space-around;
   width: 30%;
+  li {
+    a {
+      padding: 5px;
+    }
+  }
 }
 
 .nav-links a {

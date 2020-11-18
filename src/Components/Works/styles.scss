@@ -1,9 +1,10 @@
 .works {
   background: #243447;
   color: white;
+  padding: 5% 0;
   .works-title {
-    width: 40%;
     padding: 7px;
+    margin: 5px 0;
   }
   .works-title:nth-child(odd) {
     background-color: #4acfac;
@@ -36,6 +37,9 @@
 
 .works-img {
   width: 35vw;
+  max-height: 35vh;
+  object-fit: cover;
+  object-position: top;
 }
 
 .works-description {
@@ -56,14 +60,14 @@
   color: white;
 }
 
-.github-link:hover {
-  color: white;
+.github-link {
   background-color: #4acfac;
+  padding: 5px;
 }
 
-.demo-link:hover {
-  color: white;
+.demo-link {
   background-color: #c71f5c;
+  padding: 5px;
 }
 
 .works-links {
@@ -87,6 +91,16 @@
     .works-title {
       width: 100%;
       font-size: 20px;
+    }
+  }
+  .works-technologies {
+    flex-direction: column;
+    .github-demo-links {
+      margin: 2vh 0;
+      a {
+        margin-left: 0;
+        margin-right: 15px;
+      }
     }
   }
 }

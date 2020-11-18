@@ -7,9 +7,17 @@ footer {
   color: white;
   padding: 5% 0;
   height: 30vh;
-  .linkedIn-link:hover {
-    background-color: #c71f5c;
-    color: white;
+  .linkedIn-link {
+    &:hover {
+      background-color: #c71f5c;
+      color: white;
+    }
+  }
+  .github-link {
+    background: none;
+    &:hover {
+      background-color: #4acfac;
+    }
   }
 }
 
@@ -18,17 +26,15 @@ footer p {
 }
 
 footer a {
-  color: #c71f5c;
+  color: white;
+  padding: 5px;
 }
 
 footer .contact-links {
   width: 13vw;
   display: flex;
   justify-content: space-around;
-}
-
-footer a:hover {
-  color: white;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
